@@ -127,6 +127,7 @@ body {
     justify-content: center;
     overflow: hidden;
     background: linear-gradient(135deg, var(--dark-900) 0%, var(--dark-700) 50%, var(--dark-900) 100%);
+    padding-top: 70px;
 }
 
 .hero-bg {
@@ -953,6 +954,10 @@ body {
         pointer-events: all;
     }
 
+    .hero {
+        padding-top: 100px;
+    }
+
     .section {
         padding: 3rem 0;
     }
@@ -1084,6 +1089,10 @@ body {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+
+    .hero {
+        padding-top: 120px;
     }
 
     .section {
